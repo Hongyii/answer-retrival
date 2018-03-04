@@ -1,7 +1,7 @@
 import xml.etree.ElementTree as ET
 import cPickle as pickle
-from ..DataFormat.Question import Question
-from ..DataFormat.Answer import Answer
+from ..model.Question import Question
+from ..model.Answer import Answer
 from tqdm import tqdm
 import os, sys
 
